@@ -1,0 +1,33 @@
+body {
+	font-family:Trebuchet MS,Tahoma,Verdana,sans-serif;
+}
+
+#loading {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	display: none;
+	background-image: url("../img/ajax-loader.gif");
+}	
+
+#canvasContainter {
+	text-align: center;
+}
+
+#points_extended {
+	display: none;
+}
+
+.group {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#rowWrap {
+	vertical-align: top;
+}
+
+#navigation, #rendering {
+	vertical-align: top;
+}
+
